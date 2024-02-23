@@ -12,7 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <Stack direction="row" justifyContent="space-between" alignItems="center">
+    <Stack
+      direction="row"
+      justifyContent="space-between"
+      alignItems="center"
+      marginBottom="50px">
       <CardMedia
         component="img"
         sx={{ width: "200px", marginTop: "10px" }}
