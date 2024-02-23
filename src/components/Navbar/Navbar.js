@@ -12,7 +12,11 @@ const Navbar = () => {
   };
 
   return (
-    <Stack direction="row" justifyContent="space-between" alignItems="center">
+    <Stack
+      component="header"
+      direction="row"
+      justifyContent="space-between"
+      alignItems="center">
       <CardMedia
         component="img"
         sx={{ width: "200px", marginTop: "10px" }}
@@ -22,7 +26,7 @@ const Navbar = () => {
       <AppBar
         position="static"
         sx={{
-          width: "68%",
+          width: "60%",
           borderRadius: "50px",
           alignItems: "center",
           backgroundColor: "#EFEFEF",
@@ -35,7 +39,7 @@ const Navbar = () => {
                 md: "block",
               },
             }}>
-            <Stack direction="row" spacing={10}>
+            <Stack direction="row" spacing={4}>
               {buttonConfig.map((button) => (
                 <Button
                   key={button.label}

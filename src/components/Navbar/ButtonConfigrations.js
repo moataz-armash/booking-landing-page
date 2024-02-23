@@ -1,7 +1,7 @@
 export const buttonStyles = {
   color: "black",
   opacity: "0.5",
-  width: "80px",
+  width: "50px",
   "&:hover": {
     backgroundColor: "transparent",
     opacity: "1",
@@ -12,9 +12,9 @@ export const buttonStyles = {
 };
 
 export const buttonConfig = [
-  { label: "Home", width: "80px", target: "Home" },
+  { label: "Home", width: "100px", target: "Home" },
   { label: "Our Services", width: "140px", target: "Services" },
   { label: "Join Us", width: "100px", target: "Join" },
-  { label: "FAQs", width: "100px", target: "Faqs" },
+  { label: "FAQs", width: "80px", target: "Faqs" },
   { label: "Contact", width: "100px", target: "Contact" },
 ];

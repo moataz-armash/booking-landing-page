@@ -1,10 +1,11 @@
+import { Container } from "@mui/material";
 import "./App.css";
 import Navbar from "./components/Navbar/Navbar.js";
 function App() {
   return (
-    <div className="App">
+    <Container className="App" sx={{ height: "100vh" }}>
       <Navbar />
-    </div>
+    </Container>
   );
 }
 
